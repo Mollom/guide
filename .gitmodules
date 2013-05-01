@@ -1,0 +1,3 @@
+[submodule "examples/php/MollomPHP"]
+  path = examples/php/MollomPHP
+  url = git@github.com:Mollom/MollomPHP.git

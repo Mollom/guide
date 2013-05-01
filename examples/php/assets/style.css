@@ -1,0 +1,77 @@
+/**
+ * Hidden Mollom honeypot field.
+ */
+.hidden {
+  display: none;
+}
+
+/**
+ * Demo app styles.
+ */
+html {
+  background: #f0f0f0;
+  background-image: linear-gradient(#f0f0f0, #d0d0d0);
+  font: small calibri,tahoma,arial,sans-serif;
+}
+body {
+  width: 500px;
+  margin: 0 auto;
+  padding: 1em;
+  background: #fff;
+  font-size: 110%;
+}
+.messages {
+  border: 1px solid #333;
+  border-radius: 10px;
+  margin: 1em 0;
+  padding: .5em 1em;
+}
+.messages.error {
+  background-color: #fff0f0;
+  border-color: #933;
+}
+.messages.warning {
+  background-color: #fffff0;
+  border-color: #993;
+}
+.messages.status {
+  background-color: #f0fff0;
+  border-color: #393;
+}
+form {
+  margin: 1em 0;
+  border-top: 1px solid #ccc;
+}
+
+
+.form-item {
+  margin: 1em 0;
+}
+label {
+  display: block;
+  font-weight: bold;
+}
+.form-type-text label,
+.form-type-email label,
+.form-type-url label {
+  float: left;
+  width: 10em;
+}
+.form-type-text input,
+.form-type-email input,
+.form-type-url input {
+  min-width: 20em;
+}
+textarea {
+  width: 100%;
+  resize: vertical;
+}
+textarea, input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.1em 0.3em;
+}
+
+pre {
+  white-space: pre-wrap;
+}
