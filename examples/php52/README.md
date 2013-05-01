@@ -17,16 +17,18 @@ This micro-app demonstrates how to implement a basic [Mollom] client in [PHP].
 ## Installation
 
 1. Provide the [MollomPHP] client library
-   * via git: `git submodule init`
+   * via git:
+
+            git submodule init
+            git submodule update
    * manually: Download and extract the complete library into `./MollomPHP/`
 1. Set up permissions for the [SQLite] database:
-   * Webserver needs read+write access to the .sqlite file itself.
-   * Webserver needs read+write access to the containing folder. [[serverfault]] [[pantz]]
 
         chmod 777 ./db
         touch db/.db.sqlite
         chmod 666 db/.db.sqlite
-
+   * Webserver needs read+write access to the .sqlite file itself.
+   * Webserver needs read+write access to the containing folder. [[serverfault]] [[pantz]]
 1. Hook up the directory containing `index.php` in your web browser.
 
 
