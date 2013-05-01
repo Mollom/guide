@@ -1,3 +1,3 @@
 [submodule "examples/php52/MollomPHP"]
-  path = examples/php52/MollomPHP
-  url = git@github.com:Mollom/MollomPHP.git
+	path = examples/php52/MollomPHP
+	url = git://github.com/Mollom/MollomPHP.git
